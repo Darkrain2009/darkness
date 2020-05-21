@@ -2,5 +2,7 @@
 ***
 PHP Web shell and backdoor
 ***
-Simple
+⋅1. Simple PHP web shell \ back door with few futers as:
+⋅⋅1.Server information:
+⋅⋅⋅1.Server Operation system
 
