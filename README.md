@@ -1,6 +1,7 @@
 # Darkness V1.0
 ***
 PHP Web shell and backdoor
+For educational and legal purposes only! :shipit:
 ***
 
 *  Simple PHP web shell \ back door with few futers as:
