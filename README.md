@@ -14,7 +14,7 @@ PHP Web shell and backdoor
 2. Execution Terminal
 3. Custom Netcat (set your ip and port - execute)
 4.Files and Folders lists
-4.Upload files
+5.Upload files
 
 
 
