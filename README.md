@@ -1,4 +1,4 @@
-# Darkness
+# Darkness V1.0
 ***
 PHP Web shell and backdoor
 ***
@@ -15,6 +15,7 @@ PHP Web shell and backdoor
 3. Custom Netcat (set your ip and port - execute)
 4. Files and Folders lists
 5. Upload files
-
-
+***
+Thanks to:
+1. chefy from Codepen.io - UI
 
