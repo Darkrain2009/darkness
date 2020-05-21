@@ -3,8 +3,8 @@
 PHP Web shell and backdoor
 ***
 
-1. Simple PHP web shell \ back door with few futers as:
-* Information about the server
+*  Simple PHP web shell \ back door with few futers as:
+1. Information about the server
 - Operation system
 + PHP Version
 - Server IP
